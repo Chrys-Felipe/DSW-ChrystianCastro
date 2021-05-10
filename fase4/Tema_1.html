@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNVERSIDAD DEL ESTADO</title>
+    <link rel="Stylesheet" href="Estilos.css" />
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0" nonce="cylt7g8c"></script>
+
+    <div id="container">
+        <header>
+            <h1>
+                DISEÑO DE SITIOS WEB
+            </h1>
+        </Header>
+
+        <Nav>
+
+            <ul>
+                <li><a href=index.html>INICIO</a></li>
+            </ul>
+
+            <ul>
+                <li>TEMAS</li>
+                <ul>
+                    <li><a href=Tema_1.html>TEMA 1: Flex Box</a></li>
+                    <li><a href=Tema_2.html>TEMA 2: CSS Grid</a></LI>
+                </ul>
+            </ul>
+
+            <ul>
+                <li>RECURSOS DIGITALES</li>
+                <ul>
+                    <li><a href=Recurso_Digital1.html>RECURSO DIGITAL :1</a></li>
+                    <li><a href=Recurso_Digital2.html>RECURSO DIGITAL :2</a></li>
+                </ul>
+            </ul>
+
+            <ul>
+                <li>APRENDIZAJE</li>
+                <ul>
+                    <li><a href="#">ACTIVIDAD 1</a></li>
+                    <li><a href="#">ACTIVIDAD 2</a></li>
+                </ul>
+            </ul>
+
+            <ul>
+                <li>ACERCA DE</li>
+                <ul>
+                    <li><a href="#">Autor: Chrystian Felipe Castro Chaparro</a></li>
+                </ul>
+            </ul>
+
+        </Nav>
+
+        <div class="clearfix">
+
+        </div>
+
+        <section id=content>
+           
+            <article class="Article">
+                <h1>FLEXBOX</h1>
+                <P>
+                    El módulo de caja flexible conocido como Flexbox, es un módulo de diseño creado para CSS3 , fue<br>
+                    diseñado como modelo unidimensional de Layout que ayuda a distribuir mejor los espacios entre<br>
+                    ítems y
+                    mejorar su alineación.<br>
+                    <br>
+                    El módulo de flexbox se trabaja pensando en dos ejes, el eje principal y el eje cruzado. El eje<br>
+                    principal se define como ‘Flex-direction’ y puede poseer cuatro valores: row, row-reverse,
+                    column<br> y
+                    column reverse; si elige row o row-reverse trabajará a lo largo de las filas, si elije column o
+                    <br>column-reverse trabajará desde el borde superior hasta el final.<br>
+                    <br>
+                    EL área del documento que tiene un flexbox es llamado contenedor flex, Para crearlo se establece<br>
+                    la
+                    propiedad ‘Display’ como flex o inline-flex, una vez hecho esto los elementos contenidos en él<br>
+                    se
+                    vuelven ‘ítems flex’<br>
+                    <br>
+                    Algunas de las propiedades del Flexbox son:
+                    <br><br>
+                    <h3>Display: Flex</h3>
+                    
+                    Al utilizar las propiedades del Flexbox es necesario crear<br>
+                    un contenedor master para que configure las características de <br>
+                    otros contenderes junior, al contendeor master se declara la propiedad<br>
+                    <br>por ejemplo:<br> <br>#Container {<br>
+                    display: flex;<br>}<br>
+                    <br>
+                    
+                    <h3>Flex-wrap</h3>
+                    
+                    Con la propiedad 'Flex-wrap' es posible indicar cuales elementos<br>
+                    se deben trasladar cuando el contenedor no tiene el espacio suficiente<br>
+                    <br>
+                    los valores que se pueden adaptar del Flex-wrap son:<br>
+                    <br>
+                    -nowrap: Los elementos no se pasan a la fila siguiente y se reduce el ancho<br> para poder mostrarlos<br>
+                    <br>
+                    -wrap: los elementos pasan a la fila siguiente y no semodifica el ancho<br>
+                    <br>
+                    -wrap-reverse: los elementos pasan a la siguiente fila, pero al contrario<br>
+                    de como fueron declarados<br>
+                    <br>por ejemplo:<br> <br>#Container {<br>
+                    display: flex;<br>
+                    flex-wrap: wrap;<br>}
+                    <br>
+                    
+                    <h3>Justify-content</h3>
+                    
+                    Con la propiedad Justify-content es posible definir la justificación<br>
+                    horizontal de los elementos junior de un contenedor flexible<br>
+                    <br>
+                    los valores que se pueden adaptar del Justify-content son:<br>
+                    <br>
+                    -flex-start: posiciona los elementos a la izquierda del contendor<br>
+                    <br>
+                    -flex-end: posiciona los elementos a la derecha del contendor<br>
+                    <br>
+                    -center: posiciona los elementos al centro del contendor<br>
+                    <br>
+                    -space-between: añade un espacio idéntico entre los elementos<br>
+                    Estando el primero a la izquierda y el ùltimo a la derecha<br>
+                    <br>
+                    -space-around: espacia de forma regular los elementos que no están<br>
+                    alineados a la izquierda o la derecha del contenedor.<br>
+                    <br>
+                    por ejemplo:<br> <br>#Container {<br>
+                    display: flex;<br>
+                    justify-content: flex-start;<br>}
+                    <br>
+                    Tomado de:<br>
+                    <br>
+                    Flexbox, modelo de caja flexible en CSS. (2021). Retrieved 01 April 2021, from<br> https://www.eniun.com/flexbox-modelo-caja-flexible-css/#:~:text=El%20modelo%20de%20caja%20flexible,dise%C3%B1o%20de%20una%20p%C3%A1gina%20web.<br>
+                    <br>
+                    <img src="https://mdn.mozillademos.org/files/13418/flexbox-example7.png" alt="Flexbox">
+                </P>
+            </article>            
+        </section>
+
+        <aside>
+                <h2>
+                    Facebook oficial UNAD
+                </h2>
+                <div class="fb-page" data-href="https://www.facebook.com/universidadUNAD" data-tabs="timeline" data-width="" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/universidadUNAD" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/universidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD Colombia</a></blockquote></div>
+               <br>
+               <h2>
+                   Twitter oficial UNAD
+               </h2>
+               <a class="twitter-timeline" data-height="700" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>     
+        </aside>
+    </div>
+
+    <div class="clearfix">
+
+    <footer>
+        <h6>
+            Correo Electrónico: cfcastroch@unadvirtual.edu.co / Skype: chrys.felipe / Actualizado el: 10/03/2021
+        </h6>
+    </footer>
+    </div>
+</body>
+
+</html>
