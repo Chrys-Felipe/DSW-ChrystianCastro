@@ -2,6 +2,23 @@ body{
     background: lightgray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body { font-size: 14px; }
+
+/* tabletas */
+@media (min-width: 768px) {
+  body { font-size: 15px; }
+}
+
+/* escritorio normales */
+@media (min-width: 992px) {
+  body { font-size: 16px; }
+}
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+  body { font-size: 17px; }
+}
+
 #container{
     width: 90%;
     margin: 0px auto;
@@ -36,8 +53,7 @@ Nav ul {
     width: 75%;
     border-left: solid darkgray;
     border-bottom: none
-    min-height: 1500px;
-    
+    min-height 1500px;
 }
 aside{
     float: right;
