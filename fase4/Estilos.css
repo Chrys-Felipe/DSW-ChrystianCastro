@@ -16,7 +16,7 @@ header{
     Color: darkblue
 }
 Nav{
-    background: rgb(139, 139, 241);
+    background: rgb(26, 26, 221);
     height: 100px;
     width: 100%;
     border-bottom: solid darkgray;
@@ -24,7 +24,7 @@ Nav{
     Color: white;
 }
 Nav ul {
-    float: left;
+    float: center;
     list-style: none;
     margin: 8px;
 }

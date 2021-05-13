@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNVERSIDAD DEL ESTADO</title>
-    <link rel="Stylesheet" href="Estilos.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UNVERSIDAD DEL ESTADO</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>    
+        <link rel="Stylesheet" href="Estilos.css" />
+    </head>
 
 <body>
     <div id="fb-root"></div>
@@ -22,40 +25,38 @@
 
         <Nav>
 
-            <ul>
-                <li><a href=index.html>INICIO</a></li>
-            </ul>
-
-            <ul>
-                <li>TEMAS</li>
-                <ul>
-                    <li><a href=Tema_1.html>TEMA 1: Flex Box</a></li>
-                    <li><a href=Tema_2.html>TEMA 2: CSS Grid</a></LI>
-                </ul>
-            </ul>
-
-            <ul>
-                <li>RECURSOS DIGITALES</li>
-                <ul>
-                    <li><a href=Recurso_Digital1.html>RECURSO DIGITAL :1</a></li>
-                    <li><a href=Recurso_Digital2.html>RECURSO DIGITAL :2</a></li>
-                </ul>
-            </ul>
-
-            <ul>
-                <li>APRENDIZAJE</li>
-                <ul>
-                    <li><a href=Actividad1.html>ACTIVIDAD 1</a></li>
-                    <li><a href=Actividad2.html>ACTIVIDAD 2</a></li>
-                </ul>
-            </ul>
-
-            <ul>
-                <li>ACERCA DE</li>
-                <ul>
-                    <li><a href="Autor.html">Autor: Chrystian Felipe Castro Chaparro</a></li>
-                </ul>
-            </ul>
+            <ul class="nav nav-pills nav-fill bg-dark">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=index.html>INICIO</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">TEMAS</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href=Tema_1.html>TEMA 1: Flex Box</a></li>
+                      <li><a class="dropdown-item" href=Tema_2.html>TEMA 2: CSS Grid</a></li>                      
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">RECURSOS DIGITALES</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href=Recurso_Digital1.html>RECURSO DIGITAL 1: FLEXBOX</a></li>
+                      <li><a class="dropdown-item" href=Recurso_Digital2.html>RECURSO DIGITAL 2: CSS-GRID</a></li>                      
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">APRENDIZAJE</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href=Actividad1.html>CUESTIONARIO FLEXBOX</a></li>
+                      <li><a class="dropdown-item" href=Actividad2.html>CUESTIONARIO CSS GRID</a></li>                      
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ACERCA DE</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href=Autor.html>Autor: Chrystian Felipe Castro Chaparro</a></li>                     
+                    </ul>
+                </li>
+            </ul>    
 
         </Nav>
 
